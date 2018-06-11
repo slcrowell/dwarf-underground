@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './Header';
-import Article from './Article';
-import SideAd from './SideAd';
-import BottomAds from './BottomAds';
+import Main from './Main';
 import Footer from './Footer';
 
 class App extends Component {
@@ -12,16 +10,8 @@ class App extends Component {
       <div className="App">
         <Header />
 
-        <main className="expanded row">
-          <Article />
+        <Main />
 
-          <SideAd />
-          
-          <BottomAds />
-
-        </main>
-
-    
         <Footer />
     
       </div>
