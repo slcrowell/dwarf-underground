@@ -256,6 +256,10 @@ footer h6 {
   display: inline-block;
 }
 
+.comments {
+  display: none;
+}
+
 
 
 
